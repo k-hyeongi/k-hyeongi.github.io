@@ -16,6 +16,11 @@
         </a>
     {% endfor %}
 
+    <a id="kakao-link-btn" href="javascript:sendLink()" data-toggle="tooltip" data-placement="top"
+    target="_blank" rel="noopener">
+      <i class="fas fa-comment"></i>
+  </a>
+
     <i id="copy-link" class="fa-fw fas fa-link small"
         data-toggle="tooltip" data-placement="top"
         title="{{ site.data.locales[lang].post.button.share_link.title }}"
@@ -35,6 +40,7 @@
           title: "{{ page.title }}",
           description: "{{ page.excerpt }}",
           url : "{{ page.url }}",
+          pagePathname : location.pathname
         },
       });
     }
