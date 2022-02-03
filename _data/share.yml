@@ -12,8 +12,8 @@ platforms:
     link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
   -
     type: KakaoTalk
-    icon: "fab fa-comment"
-    link: "https://t.me/share/url?url=URL&text=TITLE"
+    icon: "fas fa-comment"
+    link: "javascript:sendLink()"
 
   # Uncomment below if you need to.
   # -
