@@ -53,7 +53,8 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification:               # fill in to your verification string
+google_site_verification: <meta name="google-site-verification" content="E1wzPZtbMjIjO0OwGEzbCAUun9CHAMaxs56ATi6-Jiw" />              
+# fill in to your verification string
 
 # ↑ --------------------------
 
