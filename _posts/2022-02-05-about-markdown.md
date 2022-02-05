@@ -174,11 +174,13 @@ Item	 | Value
 코카콜라	 | ₩1200
 국밥		 | ₩6000
 ```
+```
 Item	 | Value
 ------	 | -----
 아메리카노	 | ₩2500
 코카콜라	 | ₩1200
 국밥		 | ₩6000
+```
 
 ------
 
@@ -187,9 +189,11 @@ Item	 | Value
 |:--------:| -------------:|
 | centered | right-aligned |
 ```
+```
 | Column 1 | Column 2 	   |
 |:--------:| -------------:|
 | centered | right-aligned |  
+```
 </br>
 <span style="color:green">원래 표가 생성되야 하는 게 맞는데 안된다...</span>
 
