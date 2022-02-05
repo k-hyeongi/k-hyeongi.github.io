@@ -2,20 +2,6 @@
  Post sharing snippet
 -->
 <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
-<script>
-  Kakao.init("0681a1857f6f27ad50a65ac41bdeac60");   // 아까 복사해둔 JavaScript 키
-  
-  const kakaoLink = () => {
-    Kakao.Link.sendCustom({
-        templateId: 70075,   // 복사해둔 템플릿 ID
-        templateArgs: {
-        title: "{{page.title}}",
-        description: '{{page.excerpt | smartify}}',
-        url : window.location.pathname,
-        }
-    });
-  };
-</script> 
 
 <div class="share-wrapper">
   <span class="share-label text-muted mr-1">{{ site.data.locales[lang].post.share }}</span>
@@ -46,3 +32,18 @@
   </span>
 
 </div>
+
+<script>
+  Kakao.init("0681a1857f6f27ad50a65ac41bdeac60");   // 아까 복사해둔 JavaScript 키
+  
+  const kakaoLink = () => {
+    Kakao.Link.sendCustom({
+        templateId: 70075,   // 복사해둔 템플릿 ID
+        templateArgs: {
+        title: "{{page.title}}",
+        description: '{{page.excerpt | smartify}}',
+        url : window.location.pathname,
+        }
+    });
+  };
+</script> 
