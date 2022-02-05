@@ -2,6 +2,23 @@
  Post sharing snippet
 -->
 
+<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+<script>
+  Kakao.init("0681a1857f6f27ad50a65ac41bdeac60");   // 아까 복사해둔 JavaScript 키
+  function sendLink() {
+    Kakao.Link.sendCustom({
+      templateId: 70075,   // 복사해둔 템플릿 ID
+      templateArgs: {
+        title: "{{ page.title }}",
+        description: "{{ page.excerpt }}",
+        url : "{{ page.url }}",
+      },
+    });
+  }
+</script>
+
+
+
 <div class="share-wrapper">
   <span class="share-label text-muted mr-1">{{ site.data.locales[lang].post.share }}</span>
   <span class="share-icons">
@@ -16,24 +33,9 @@
         </a>
     {% endfor %}
 
-    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
-    <script>
-        Kakao.init("0681a1857f6f27ad50a65ac41bdeac60");   // 아까 복사해둔 JavaScript 키
-        function sendLink() {
-          Kakao.Link.sendCustom({
-            templateId: 70075,   // 복사해둔 템플릿 ID
-            templateArgs: {
-              title: "{{ page.title }}",
-              description: "{{ page.excerpt }}",
-              url : "{{ page.url }}",
-            },
-          });
-        }
-    </script>
-
     <a id="kakao-link-btn" href="javascript:sendLink()" data-toggle="tooltip" data-placement="top"
     target="_blank" rel="noopener" title="KakaoTalk">
-      <i class="fas fa-comment"></i>
+      <i class="fas fa-comment" aria-hidden="true"></i>
     </a>
 
     <i id="copy-link" class="fa-fw fas fa-link small"
