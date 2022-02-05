@@ -36,12 +36,11 @@
 </div>
 
 <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+<script> Kakao.init("0681a1857f6f27ad50a65ac41bdeac60");  </script>
 <script>
-  Kakao.init("0681a1857f6f27ad50a65ac41bdeac60");   // 아까 복사해둔 JavaScript 키
-  
   function kakaoLink() {
     Kakao.Link.sendCustom({
-        templateId: 70075,   // 복사해둔 템플릿 ID
+        templateId: 70075,   
         templateArgs: {
         title: "{{page.title}}",
         description: '{{page.excerpt | smartify}}',
