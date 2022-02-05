@@ -4,7 +4,7 @@ date: 2022-02-05 20:25:30 +/-TTTT
 categories: [GitHub, Pages]
 tags: [blog, markdown]     # TAG names should always be lowercase
 image:
-  src: assets/img/aboutMd/mdLogo.png
+  src: /assets/img/aboutMd/mdLogo.png
   width: 800
   height: 500
 ---
