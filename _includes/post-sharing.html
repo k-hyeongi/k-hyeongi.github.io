@@ -4,13 +4,13 @@
 <script>
   Kakao.init("0681a1857f6f27ad50a65ac41bdeac60");   // 아까 복사해둔 JavaScript 키
   
-  function kakaoLink() {
+  const kakaoLink = () => {
     Kakao.Link.sendCustom({
         templateId: 70075,   // 복사해둔 템플릿 ID
         templateArgs: {
         title: "{{page.title}}",
         description: '{{page.excerpt | smartify}}',
-        url : "/categories", //window.location.pathname,
+        url : window.location.pathname,
         }
     });
   };
