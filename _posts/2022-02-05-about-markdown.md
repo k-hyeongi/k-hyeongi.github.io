@@ -5,8 +5,8 @@ categories: [GitHub, Pages]
 tags: [blog, markdown]     # TAG names should always be lowercase
 image:
   src: assets/img/aboutMd/mdLogo.png
-  width: 400
-  height: 250
+  width: 800
+  height: 500
 ---
 # 마크다운 Markdown
   
