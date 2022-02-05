@@ -75,7 +75,7 @@ image:
 ==Highlight things==
 ```
 ==Highlight things==  
-</br>
+<br/>
 <span style="color:red">하이라이팅은 여기선 안되나 보다. 마크다운의 단점.</span>
 
 ------
@@ -109,7 +109,7 @@ H~2~O is a liquid.
 2^10^ is 1024.
 ```
 2^10^ is 1024.  
-</br>
+<br/>
 <span style="color: orange">화학식과 수식을 나타내는 문법도 여기선 표현이 안되는 것을 알 수 있다.</span>
 
 ------
@@ -170,17 +170,17 @@ int main() {
 ```
 Item	 | Value
 ------	 | -----
-아메리카노	 | ₩2500
+Americano	 | ₩2500
 코카콜라	 | ₩1200
 국밥		 | ₩6000
 ```
-```
+
 Item	 | Value
 ------	 | -----
-아메리카노	 | ₩2500
+Americano	 | ₩2500
 코카콜라	 | ₩1200
 국밥		 | ₩6000
-```
+
 
 ------
 
@@ -189,12 +189,12 @@ Item	 | Value
 |:--------:| -------------:|
 | centered | right-aligned |
 ```
-```
+
 | Column 1 | Column 2 	   |
 |:--------:| -------------:|
 | centered | right-aligned |  
-```
-</br>
+
+<br/>
 <span style="color:green">원래 표가 생성되야 하는 게 맞는데 안된다...</span>
 
 
@@ -234,7 +234,7 @@ Some text with a footnote.[^1]
 Markdown converts text to HTML.
 *[HTML]: HyperText Markup Language
 ```
-Markdown converts text to HTML.
+Markdown converts text to HTML.  
 *[HTML]: HyperText Markup Language
 ------
 ## 3-10. LaTeX math
@@ -246,8 +246,9 @@ $$
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
 $$
 ```
+
 The Gamma function satisfying $\Gamma(n) = (n-1)!\quad\forall
-n\in\mathbb N$ is via the Euler integral
+n\in\mathbb N$ is via the Euler integral  
 
 $$
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
