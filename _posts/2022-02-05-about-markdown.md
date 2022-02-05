@@ -4,9 +4,9 @@ date: 2022-02-05 20:25:30 +/-TTTT
 categories: [GitHub, Pages]
 tags: [blog, markdown]     # TAG names should always be lowercase
 image:
-  src: /assets/img/mdLogo.png
-  width: 800
-  height: 500
+  src: assets/img/aboutMd/mdLogo.png
+  width: 400
+  height: 250
 ---
 # 마크다운 Markdown
   
@@ -37,8 +37,10 @@ image:
 
 ------
 
-### 3-1. Header
- ==H1 ~ H6==
+## 3-1. Header
+
+`h1 ~ h6`
+
 ```
 # 안녕 나는 Header 1야
 ## 안녕 나는 Header 2야
@@ -47,22 +49,16 @@ image:
 ##### 안녕 나는 Header 5야
 ###### 안녕 나는 Header 6야
 ```
-# 안녕 나는 Header 1야
-## 안녕 나는 Header 2야
-### 안녕 나는 Header 3야
-#### 안녕 나는 Header 4야
-##### 안녕 나는 Header 5야
-###### 안녕 나는 Header 6야
-~~####### 안녕 나는 Header 7야~~
+![Alt](/assets/img/aboutMd/header.png)
 
 ------
 
-### 3-2. Styling
-==Emphasize==
+## 3-2. Styling
+`Emphasize`
 ```
 *Emphasize* or _emphasize_
 ```
--> *Emphasize* or _emphasize_
+*Emphasize* or _emphasize_
 
 ------
 
@@ -70,27 +66,29 @@ image:
 ```
 **Strong** or __strong__
 ```
--> **Strong** or __strong__
+**Strong** or __strong__
 
 ------
 
-==Highlight==
+`Highlight`
 ```
 ==Highlight things==
 ```
--> ==Highlight things==
+==Highlight things==  
+</br>
+<span style="color:red">하이라이팅은 여기선 안되나 보다. 마크다운의 단점.</span>
 
 ------
 
-==Cancellation Line==
+`Cancellation Line`
 ```
 ~~Cancellation Line~~
 ```
--> ~~Cancellation Line~~
+~~Cancellation Line~~
 
 ------
 
-==Quoted Line==
+`Quoted Line`
 ```
 > Quoted Line
 ```
@@ -98,23 +96,25 @@ image:
 
 ------
 
-==Chemical Formula==
+`Chemical Formula`
 ```
 H~2~O is a liquid.
 ```
--> H~2~O is a liquid.
+H~2~O is a liquid.
 
 ------
 
-==Mathematical Formula==
+`Mathematical Formula`
 ```
 2^10^ is 1024.
 ```
--> 2^10^ is 1024.
+2^10^ is 1024.  
+</br>
+<span style="color: orange">화학식과 수식을 나타내는 문법도 여기선 표현이 안되는 것을 알 수 있다.</span>
 
 ------
 
-### 3-3. List
+## 3-3. List
 ```
 - item
 	* item
@@ -135,19 +135,17 @@ H~2~O is a liquid.
 
 ------
 
-### 3-4. Link
+## 3-4. Link
 ```
 [NAVER](https://naver.com)
 Eagle ![Alt](https://images.unsplash.com/photo-1643114673614-55af01ec8dfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM2fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60)
-Sized Eagle ![Alt](https://images.unsplash.com/photo-1643114673614-55af01ec8dfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM2fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60 =60x50)
 ```
 [NAVER](https://naver.com)
-Eagle![Alt](https://images.unsplash.com/photo-1643114673614-55af01ec8dfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM2fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60)
-Sized Eagle  ![Alt](https://images.unsplash.com/photo-1643114673614-55af01ec8dfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM2fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60 =60x50)
+Eagle![Alt](/assets/img/aboutMd/eagle.jpeg)
 
 ------
 
-### 3-5. Code
+## 3-5. Code
 ```
 Some `inline code`
 ```
@@ -168,7 +166,7 @@ int main() {
 }
 ```
 ------
-### 3-6. Table
+## 3-6. Table
 ```
 Item	 | Value
 ------	 | -----
@@ -191,11 +189,14 @@ Item	 | Value
 ```
 | Column 1 | Column 2 	   |
 |:--------:| -------------:|
-| centered | right-aligned |
+| centered | right-aligned |  
+</br>
+<span style="color:green">원래 표가 생성되야 하는 게 맞는데 안된다...</span>
+
 
 ------
 
-### 3-7. Definition List
+## 3-7. Definition List
 ```
 Handong University
 : 경상북도 포항시 북구 흥해읍에 위치한 개신교계 사립 대학교
@@ -216,7 +217,7 @@ Majors
 
 ------
 
-### 3-8. Footnote
+## 3-8. Footnote
 ```
 Some text with a footnote.[^1]
 [^1]: The footnote.
@@ -224,7 +225,7 @@ Some text with a footnote.[^1]
 Some text with a footnote.[^1]
 [^1]: The footnote.
 ------
-### 3-9. Abbreviation
+## 3-9. Abbreviation
 ```
 Markdown converts text to HTML.
 *[HTML]: HyperText Markup Language
@@ -232,7 +233,7 @@ Markdown converts text to HTML.
 Markdown converts text to HTML.
 *[HTML]: HyperText Markup Language
 ------
-### 3-10. LaTeX math
+## 3-10. LaTeX math
 ```
 The Gamma function satisfying $\Gamma(n) = (n-1)!\quad\forall
 n\in\mathbb N$ is via the Euler integral
