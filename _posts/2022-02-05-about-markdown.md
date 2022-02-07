@@ -62,7 +62,7 @@ image:
 
 ------
 
-==String (Bold)==
+`String (Bold)`
 ```
 **Strong** or __strong__
 ```
@@ -170,7 +170,7 @@ int main() {
 ```
 Item	 | Value
 ------	 | -----
-Americano	 | ₩2500
+Americano| ₩2500
 코카콜라	 | ₩1200
 국밥		 | ₩6000
 ```
@@ -194,8 +194,6 @@ Americano	 | ₩2500
 |:--------:| -------------:|
 | centered | right-aligned |  
 
-<br/>
-<span style="color:green">원래 표가 생성되야 하는 게 맞는데 안된다...</span>
 
 
 ------
@@ -254,3 +252,10 @@ $$
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
 $$
 
+</br>
+<span style="color:skyblue">Footnote, Abbreviation, LaTeX math도 적용이 안되는 걸 볼 수 있다.</span>
+
+</br>
+
+## 결론
+`markdown`은 유용한 툴임에는 틀림 없지만 눈에 띄는 단점 역시 존재한다!
