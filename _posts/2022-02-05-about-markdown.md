@@ -152,13 +152,13 @@ Some `inline code`
 Some `inline code`
 
 ------
-==By using three `==
+`By using three ₩`
 ```
 // using ```
 var md = 'markdown';
 ```
 ------
-==By using three ` & prog lang==
+`By using three ₩ & prog lang`
 ```c
 // using ```c
 int main() {
@@ -172,7 +172,7 @@ Item	 | Value
 ------	 | -----
 Americano| ₩2500
 코카콜라	 | ₩1200
-국밥		 | ₩6000
+국밥	  | ₩6000
 ```
 
 Item	 | Value
@@ -252,10 +252,32 @@ $$
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
 $$
 
-</br>
+<br>
 <span style="color:skyblue">Footnote, Abbreviation, LaTeX math도 적용이 안되는 걸 볼 수 있다.</span>
 
-</br>
+--------------------------------------------------------
+
+## Extra. 줄바꿈
+마크다운에서는 줄바꿈하는 방법이 좀 생소함.
+```
+일반 텍스트 문장에서는 문장 끝에 공백 2번(스페이스 2번)하면 줄 바꿈이 됨.
+예를 들어, 지금  
+공백 2번 만들어서 지금과 공백 사이에서 줄바꿈이 된다.
+```
+결과값
+예를 들어, 지금  
+공백 2번 만들어서 지금과 공백 사이에서 줄바꿈이 된다.
+<br>
+```
+테이블 내에서나 일반적인 경우.
+나는 개인적으로 이걸 쓰는 걸 더 좋아함.
+안녕하세요. <br>줄바꿨어요.
+```
+결과값
+안녕하세요. <br>줄바꿨어요.
+<br>
+
+------
 
 ## 결론
 `markdown`은 유용한 툴임에는 틀림 없지만 눈에 띄는 단점 역시 존재한다!
