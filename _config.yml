@@ -23,7 +23,7 @@ timezone: Asia/Seoul
 
 title: Hyeon Git-Hub                          # the main title
 
-tagline: My First Dev Blog Life~   # it will display as the sub-title
+tagline: My First Dev Blog ;)  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -31,7 +31,7 @@ description: >-                        # used by seo meta and the atom feed
   and focuses on text presentation.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://hyeongithub.github.io'
+url: 'https://k-hyeongi.github.io'
 
 github:
   username: KIM-HYEONGI           # change to your github username
@@ -53,7 +53,7 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: "E1wzPZtbMjIjO0OwGEzbCAUun9CHAMaxs56ATi6-Jiw"
+google_site_verification: 'E1wzPZtbMjIjO0OwGEzbCAUun9CHAMaxs56ATi6-Ji'
 
 # ↑ --------------------------
 
