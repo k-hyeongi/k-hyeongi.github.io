@@ -34,7 +34,7 @@ description: >-                        # used by seo meta and the atom feed
 url: 'https://k-hyeongi.github.io'
 
 github:
-  username: KIM-HYEONGI           # change to your github username
+  username: k-hyeongi           # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
@@ -42,12 +42,12 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Justin Kim
+  name: kimhyeongi
   email: justin.kim.00.dev@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/hyeongithub       # change to your github homepage
+    - https://github.com/k-hyeongi       # change to your github homepage
     # Uncomment below to add more social links
     - https://www.instagram.com/hg_kim00
     # - https://www.facebook.com/username
