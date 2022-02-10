@@ -23,7 +23,7 @@ timezone: Asia/Seoul
 
 title: Hyeon Git-Hub                          # the main title
 
-tagline: My First Dev Blog ;)  # it will display as the sub-title
+tagline: Computer Science undergraduate at Handong  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
