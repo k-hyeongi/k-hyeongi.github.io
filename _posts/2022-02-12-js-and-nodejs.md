@@ -61,3 +61,11 @@ true == "true" -> false <span style="color:red">????</span>
 ## Node.js의 장점
 > Django나 Spring과 비교해서 왜 Node.js를 쓸까 -> JavaScript를 사용해서  
 <span style="color:skyblue; font-weight:bold">웹 프레임워크의 최신 트렌드를 전부 받아들이고 빨리 적용하면서 컴파일러 언어인 자바에 비해 코딩하기 더 쉽고 훨씬 대중적이며, php보다는 잘 만든 언어이고 JavaScript를 도입했다는 점.</span>
+
+<br>
+
+--------------------------------
+## 참고한 영상
+`데이터 유치원` 채널의 **`알쓸코잡`** 재생목록  
+https://youtube.com/playlist?list=PLOTd4L3rH1qXZViF3k6n7BTfyhrJSvfTK
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLOTd4L3rH1qXZViF3k6n7BTfyhrJSvfTK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
