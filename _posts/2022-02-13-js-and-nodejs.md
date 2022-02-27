@@ -1,7 +1,7 @@
 ---
 title: JavaScript and Node.js
 date: 2022-02-13 00:30:00 +/-TTTT
-categories: [Web, Javascript]
+categories: [Web, JavaScript]
 tags: [javascript, nodejs, frontend]
 ---
 ## 프로그래밍 언어란 무엇인가
