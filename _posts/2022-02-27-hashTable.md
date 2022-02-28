@@ -1,8 +1,8 @@
 ---
-title: 알고리즘 (#1) 해시 테이블
+title: Data Structure (#1) Hash Table
 date: 2022-02-27 21:40:00 +/-TTTT
-categories: [CS,Algorithm]
-tags: [algorithm, hashtable, array, list, map, chaining]
+categories: [CS,Data Structure]
+tags: [data structure, algorithm, hashtable, array, list, map, chaining]
 ---
 ## 해시 테이블
 해시테이블은 해시 함수를 활용해서 키를 해시값으로 매핑하고, 이 해시값을 색인(인덱스) 또는 주소 삼아 데이터를 key와 함께 저장하는 자료구조를 뜻한다.
@@ -47,7 +47,10 @@ function hashStringToInt(str, tableSize) {
 
 **Division Method**: 나눗셈을 이용하는 방법으로 입력값을 테이블의 크기로 나누어 계산한다.( 주소 = 입력값 % 테이블의 크기) 테이블의 크기를 소수로 정하고 2의 제곱수와 먼 값을 사용해야 효과가 좋다고 알려져 있다.
 
+<span style="color: #3498db">
 따라서, 해시테이블은 기본적으로 key 값과 해당 key에 대응하는 value로 구성되고, 중복을 허용하지 않는 경우에 특정 key값에 대한 값을 찾는 시간 복잡도는 O(1)로 알려져 있다. 최악의 경우엔 모든 요소를 순회해야 하므로 시간 복잡도는 O(n)이 될 것이다.  
+</span>  
+  
 
 ## 해시 충돌
 
@@ -121,6 +124,15 @@ get_item = (key) => {
 };
 ```
 이렇게 get_item 메소드에서 리턴할 때 조건을 만족하는 요소를 find()를 통해서 반환하게 된다.
+
+## 해시 테이블 언제 사용하는가
+`1:1(key : value)로 구성되어 Time Complexity가 최소 O(1), 최대 O(n)인 점을 활용하는 방안`
+
+1. 방대한 양을 검색하고, 조회해봐야 하는 경우 ➡️ 해시테이블로 조회하기 (Ex. 주소록)
+2. 중복된 항목 방지해야 하는 경우 ➡️ 해시테이블을 이용 (Ex. 누가 이미 응모했는지 확인하는 경우)
+3. 해시테이블을 캐시로 사용하기 ➡️ (Ex. 캐시(해시테이블의 버켓)에 존재하는 페이지 기록 호출하는 경우)
+  
+  
 
 --------------------------------------------------------
 
